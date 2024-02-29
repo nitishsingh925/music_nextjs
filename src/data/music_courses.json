@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHwxMnx8R3VpdGFyJTIwRnVuZGFtZW50YWxzfGVufDB8fHx8MTcwOTIzMjY1MXww&ixlib=rb-4.0.3&q=85" 
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "image": "https://images.unsplash.com/photo-1590581296900-2e7f7e86a1cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHw3Nnx8cGlhbm98ZW58MHx8fHwxNzA5MjMxNzkwfDA&ixlib=rb-4.0.3&q=85" 
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "https://images.unsplash.com/photo-1624394763815-ffe0c0d69567?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHw2fHx2b2NhbGlzdHxlbnwwfHx8fDE3MDkyMzE4NjZ8MA&ixlib=rb-4.0.3&q=85" 
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "https://images.unsplash.com/photo-1602001373093-67aba9ae989e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHw0fHxkcnVtbWluZ3xlbnwwfHx8fDE3MDkyMzE5NTR8MA&ixlib=rb-4.0.3&q=85"
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "image": "https://images.unsplash.com/photo-1501492765677-f07c5f3d87db?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHwyNXx8amF6enxlbnwwfHx8fDE3MDkyMzE5ODl8MA&ixlib=rb-4.0.3&q=85"
       },
       {
         "id": 6,
@@ -58,7 +58,7 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHw3fHxtdXNpYy1wcm9kfGVufDB8fHx8MTcwOTIzMjExNHww&ixlib=rb-4.0.3&q=85"
       },
       {
         "id": 7,
@@ -68,7 +68,7 @@
         "price": 159.99,
         "instructor": "Samantha Miller",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "https://images.unsplash.com/photo-1453906971074-ce568cccbc63?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHw0fHxzb25nLXdyaXRpbmd8ZW58MHx8fHwxNzA5MjMyMTUyfDA&ixlib=rb-4.0.3&q=85"
       },
       {
         "id": 8,
@@ -78,7 +78,7 @@
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://images.unsplash.com/photo-1486837007094-f97925b97013?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHwxMTN8fG11c2ljLXByb2R8ZW58MHx8fHwxNzA5MjMyMzIzfDA&ixlib=rb-4.0.3&q=85"
       },
       {
         "id": 9,
@@ -88,7 +88,7 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": true,
-        "image": "/courses/classical-music.jpg"
+        "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHwyfHxjbGFzc2ljYWwtbXVzaWN8ZW58MHx8fHwxNzA5MjMyMzk2fDA&ixlib=rb-4.0.3&q=85"
       },
       {
         "id": 10,
@@ -98,7 +98,7 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "image": "https://images.unsplash.com/photo-1535587566541-97121a128dc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTk4NjR8MHwxfHNlYXJjaHwzfHxCbHVlcyUyMEd1aXRhciUyMFRlY2huaXF1ZXN8ZW58MHx8fHwxNzA5MjMyNDkzfDA&ixlib=rb-4.0.3&q=85"
       }
     ]
   }
