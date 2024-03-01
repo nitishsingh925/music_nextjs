@@ -7,6 +7,16 @@ import { LampContainer } from "@/components/ui/lamp";
 import { motion } from "framer-motion";
 
 const pages = () => {
+  interface Courses {
+    id: number;
+    title: string;
+    slug: string;
+    description: string;
+    price: number;
+    instructor: string;
+    isFeatured: boolean;
+    image: string;
+  }
   return (
     <div className="-mt-14">
       <LampContainer>
@@ -28,7 +38,7 @@ const pages = () => {
       {/* Rest of your code */}
       <div className="bg-slate-950 -mt-48 py-12">
         <div className="flex flex-wrap justify-center">
-          {courseData.courses.map((course) => (
+          {courseData.courses.map((course: Courses) => (
             <CardContainer className="inter-var mx-4" key={course.id}>
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
