@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-400 py-12">
@@ -14,83 +16,83 @@ const Footer = () => {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
+              <Link
                 href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/about"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-            <a
+            <Link
               href="https://www.facebook.com"
               className="hover:text-white transition-colors duration-300"
             >
               Facebook
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.twitter.com"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.instagram.com"
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
-            </a>
+            </Link>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <a
+          <Link
             href="https://maps.app.goo.gl/cCUpnc7KiXWGrf9y5"
             className="hover:text-white transition-colors duration-300"
           >
             <p>New Delhi, India</p>
             <p>Delhi 10001</p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="mailto:info@musicschool.com"
             className="hover:text-white transition-colors duration-300"
           >
             <p>Email: info@musicschool.com</p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="tel:(123) 456-7890"
             className="hover:text-white transition-colors duration-300"
           >
             <p>Phone: (123) 456-7890</p>
-          </a>
+          </Link>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
