@@ -1,4 +1,3 @@
-// Import necessary modules and components
 "use client";
 import courseData from "@/data/music_courses.json";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
