@@ -30,29 +30,30 @@ const AboutUsPage = () => {
           <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         </div>
       </div>
-
-      <p className="-mt-28 text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        Music School is a premier institution dedicated to teaching the art and
-        science of music. With a commitment to nurturing talent from the ground
-        up, we foster a vibrant community of musicians.
-      </p>
-      <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        At Music School, we believe in providing a comprehensive musical
-        education that goes beyond the notes on a page. Our expert instructors
-        are dedicated to guiding students through their musical journey, whether
-        they are beginners or advanced musicians.
-      </p>
-      <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        We pride ourselves on offering cutting-edge curriculum and limitless
-        learning opportunities. Our interactive and engaging courses are
-        designed to enhance your understanding and mastery of music concepts and
-        performance techniques.
-      </p>
-      <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        Join Music School and embark on a personalized journey in music mastery.
-        Discover your sound with our dedicated support and immerse yourself in a
-        community that celebrates musical creativity and growth.
-      </p>
+      <div className="-mt-32 px-2">
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+          Music School is a premier institution dedicated to teaching the art
+          and science of music. With a commitment to nurturing talent from the
+          ground up, we foster a vibrant community of musicians.
+        </p>
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+          At Music School, we believe in providing a comprehensive musical
+          education that goes beyond the notes on a page. Our expert instructors
+          are dedicated to guiding students through their musical journey,
+          whether they are beginners or advanced musicians.
+        </p>
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+          We pride ourselves on offering cutting-edge curriculum and limitless
+          learning opportunities. Our interactive and engaging courses are
+          designed to enhance your understanding and mastery of music concepts
+          and performance techniques.
+        </p>
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+          Join Music School and embark on a personalized journey in music
+          mastery. Discover your sound with our dedicated support and immerse
+          yourself in a community that celebrates musical creativity and growth.
+        </p>
+      </div>
     </div>
   );
 };

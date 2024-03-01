@@ -18,7 +18,7 @@ const FeaturedCourses = () => {
     (course: Courses) => course.isFeatured
   );
   return (
-    <div className="py-12 bg-gray-900">
+    <div className="py-12 px-3 bg-gray-900 ">
       <div>
         <div className="text-center">
           <h2 className="uppercase text-base font-semibold text-teal-600 tracking-wide">
