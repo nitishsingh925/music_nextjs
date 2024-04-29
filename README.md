@@ -6,6 +6,7 @@
 
 ## Getting Started
 
+<br/>
 First, run the development server:
 
 ```bash
